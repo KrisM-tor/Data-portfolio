@@ -1,0 +1,14 @@
+This dataset is based loosely on the UCI Heart Disease dataset. 
+It is comprised of a set of dirty lines from medical log data containing patient information as well as a diagnosis of heart disease. Columns follow a semi-standard format of
+
+ 1. patient age
+ 2. blood pressure at time of admission to hospital (in mmHg)
+ 3. cholesterol at time of admission to hospital (in mg/dL)
+ 4. rest heart rate diagnosis (0 for normal, ST-T wave abnormality, or left ventricular hypertrophy)
+ 5. maximum heart achieved
+ 6. exercise-induced angina
+ 7. diagnosis (angiographic disease status. 0: < 50% diameter narrowing, 1: > 50% diameter narrowing)
+
+Besides these columns, there is a prescription line detailing what the patient took at various points, which, due to a machine error, has been inserted randomly between the typical columns. Nonstandard reporting mechanisms mean that each field separator is nonstandard as well.
+
+Prediction task: Predict the presence or absence of heart disease.
